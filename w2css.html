@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+        *{
+            font-family: 'Oswald', sans-serif;
+        }
+        h2,h1{
+            
+            color: rgb(152, 196, 170);
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 65px;
+        }
+        p{
+            color: aqua;
+            text-decoration: wavy underline;
+            font-size: 55px;
+            font-family: 'Fasthand', cursive;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .heading{
+            background-color: rgb(201, 74, 223);
+        }
+        .box{
+            border: 2px solid rgb(27, 27, 87);
+        }
+        #login{
+            color: brown;
+        }
+
+        a:visited{
+            color: rgb(16, 15, 15);
+        }
+        a:hover{
+            color: red;
+        }
+        
+        .smaller-image{
+            width: 100px;
+        }
+        .larger-image{
+            width: 200px;
+            border-radius: 50px;
+        }
+        .thick-green-border{
+            border-color: blueviolet;
+            border-width: 10px;
+            border-style: groove;
+            padding: 15px;
+        }
+        .image{
+            width: 200px;
+
+        }
+
+        @media screen and (max-width: 300px) {
+            .image{
+             width: 100px;
+             border: 20px solid palegreen;
+            }
+         }
+         
+    </style>
+</head>
+<body>
+    <h1 class="heading box"> Test CSS</h1>
+    <p class="heading">First paragraph</p>
+    <p>Second paragraph</p>
+
+    <h2>Eiei</h2>
+    <p id="login">wowwww</p>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://eng.src.ku.ac.th">eng ku</a>
+    <br><br>
+    <img src="https://bit.ly/fcc-relaxing-cat" class="smaller-image thick-green-border" />
+    <img src="https://bit.ly/fcc-relaxing-cat" class="larger-image thick-green-border"/>
+    <img src="https://bit.ly/fcc-relaxing-cat" class="image">
+</body>
+</html>
